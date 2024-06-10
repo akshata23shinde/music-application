@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audioza Web Based Music Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo2.jpg" alt="Audioza" />Audioza</li>
+        <li><a href="About/PBL.html"style="text-decoration:none">About</a></li>
+        <li><a href="Clone/playlist.html"style="text-decoration:none">Playlist</a></li>
+        <li><a href="Artist/artist.html" style="text-decoration:none">Artist's</a></li>
+      </ul>
+      <br />
+    </nav>
+    <div class="container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img3.jpg" width="1400" height="800" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img1.jpg" width="1400" height="800" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img2.jpg" width="1400" height="800" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper(".swiper", {
+          loop: true,
+
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
+    <div class="head">
+      <h1>Music</h1>
+    </div>
+    <br />
+    <div class="music">
+      <p>
+        Music is the art of arranging sounds in time through the elements of
+        melody, harmony, rhythm, and timbre.It is one of the universal cultural
+        aspects of all human societies. General definitions of music include
+        common elements such as pitch (which governs melody and harmony), rhythm
+        (and its associated concepts tempo, meter, and articulation), dynamics
+        (loudness and softness), and the sonic qualities of timbre and texture
+        (which are sometimes termed the "color" of a musical sound). Different
+        styles or types of music may emphasize, de-emphasize or omit some of
+        these elements. Music is performed with a vast range of instruments and
+        vocal techniques ranging from singing to rapping; there are solely
+        instrumental pieces, solely vocal pieces (such as songs without
+        instrumental accompaniment) and pieces that combine singing and
+        instruments. The word derives from Greek μουσική, mousiké, '(art) of the
+        Muses'. In its most general form, the activities describing music as an
+        art form or cultural activity include the creation of works of music
+        (songs, tunes, symphonies, and so on), the criticism of music, the study
+        of the history of music, and the aesthetic examination of music. Ancient
+        Greek and Indian philosophers defined music in two parts: melodies, as
+        tones ordered horizontally, and harmonies as tones ordered vertically.
+        Common sayings such as "the harmony of the spheres" and "it is music to
+        my ears" point to the notion that music is often ordered and pleasant to
+        listen to. However, 20th-century composer John Cage thought that any
+        sound can be music, saying, for example, "There is no noise, only
+        sound."
+      </p>
+      <br />
+      <br />
+      <div class="img4">
+        <img src="img4.jpg" height="800" width="1300" />
+      </div>
+      <br />
+    </div>
+    <div class="tip">
+      <h1>GUIDE :-</h1>
+    </div>
+    <div class="tips">
+      <p>1. For Details, Go To About Us, By Clicking On About(At Top Left).</p>
+      <br />
+      <p>2. To Listen Music, Go To Playlist Or Artists Section.</p>
+      <br />
+      <p>
+        3. In Artist Section, You Will Get Different Artists With Some Of Their
+        Best Songs.
+      </p>
+      <br />
+      <p>4. In Playlist, You Will Get Bollywood And Other Playlists.</p>
+      <br />
+    </div>
+    <div class="ty">
+      <h1>THANKS FOR VISITING OUR SITE !!!</h1>
+    </div>
+  </body>
+</html>
